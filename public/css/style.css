@@ -178,3 +178,15 @@ nav a {
     border-radius: 0.5rem;
     background-color: var(--gray-blue);
 }
+
+.landing-explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topics > .topic {
+    height: clamp(20rem, 100%, 25rem);
+    width: clamp(25rem, 100%, 30rem);
+}
