@@ -205,6 +205,7 @@ nav a {
     border: 2px solid var(--dark-gray-blue);
     border-radius: 1.5rem;
     flex-basis: calc(33% - 8rem);
+    box-shadow: 0 0.5rem 1rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 
 .topics > .topic p {
