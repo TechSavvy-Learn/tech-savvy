@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="landing-container">
+    <section class="landing-hero">
+
+    </section>
+    <section class="landing-explore">
+
+    </section>
+    <section class="landing-about">
+        
+    </section>
+</div>
