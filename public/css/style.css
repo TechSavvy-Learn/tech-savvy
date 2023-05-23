@@ -223,3 +223,15 @@ nav a {
     color: var(--white-col);
     background-color: var(--gray-blue);
 }
+
+@media (max-width: 740px) {
+    .topics > .topic {
+        flex-basis: calc(50% - 8rem);
+    }
+}
+
+@media (max-width: 420px) {
+    .topics > .topic {
+        flex-basis: 100%;
+    }
+}
