@@ -113,7 +113,7 @@ html, body {
  *   APPLICATION   *
  * --------------- */
 nav {
-    padding: 0.75rem 3rem;
+    padding: 0.75rem 3rem 0.75rem 5rem;
     background-color: var(--light-gray-blue);
 }
 
@@ -130,7 +130,7 @@ nav a {
 }
 
 .nav-title {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 400;
 }
 
@@ -146,4 +146,35 @@ nav a {
 .nav-item.signup {
     border: 2px solid var(--white-col);
     border-radius: 0.5rem;
+}
+
+.landing-hero {
+    padding: 3rem 3rem 7rem 5rem;
+    background: url('@public/images/landing-learn-together.svg'),
+                radial-gradient(circle at 20% 170%, var(--fire-orange) 80rem, rgba(0, 0, 0, 0) 0);
+    background-size: 63%, auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.landing-hero h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    max-width: 55rem;
+    color: var(--white-col);
+}
+
+.landing-hero p {
+    font-size: 1.85rem;
+    max-width: 50rem;
+    color: var(--white-col);
+}
+
+.landing-hero button {
+    max-width: 15rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: var(--white-col);
+    border-radius: 0.5rem;
+    background-color: var(--gray-blue);
 }
