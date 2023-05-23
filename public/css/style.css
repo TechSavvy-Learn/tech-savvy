@@ -75,6 +75,10 @@ html, body {
     flex-grow: 1;
 }
 
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
 .flex.align-space-between {
     align-items: space-between;
 }
@@ -176,5 +180,45 @@ nav a {
     margin-top: 1rem;
     color: var(--white-col);
     border-radius: 0.5rem;
+    background-color: var(--gray-blue);
+}
+
+.landing-explore {
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.landing-explore h1 {
+    font-size: 4rem;
+    color: var(--gray-blue);
+}
+
+.topics {
+    max-width: 120rem;
+    gap: 8rem;
+}
+
+.topics > .topic {
+    position: relative;
+    height: 20rem;
+    padding: 8rem 1.5rem;
+    border: 2px solid var(--dark-gray-blue);
+    border-radius: 1.5rem;
+    flex-basis: calc(33% - 8rem);
+}
+
+.topics > .topic p {
+    font-size: 1.2rem;
+}
+
+.topics > .topic h2 {
+    position: absolute;
+    width: 25rem;
+    top: 2rem;
+    left: -4rem;
+    font-size: 3rem;
+    font-weight: 400;
+    border-radius: 0 3rem 3rem 0;
+    color: var(--white-col);
     background-color: var(--gray-blue);
 }
