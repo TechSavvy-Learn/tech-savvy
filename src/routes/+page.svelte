@@ -33,18 +33,15 @@
         <p>Discover the Thrilling World of Technology with Engaging E-Learning Courses Designed Just for Kids!</p>
         <button class="borderless">Getting Started</button>
     </section>
-    <section class="landing-explore">
-        <h2>EXPLORE OUR EXCITING TECH COURSES</h2>
-        <div class="topics">
-            <div class="topic">
-                <h1>WEB DESIGN</h1>
-                <p></p>
-            </div>
-            <div class="topic">
-                <h1>ENGINEERING</h1>
-                <p></p>
-            </div>
-
+    <section class="landing-explore flex column align-center justify-center">
+        <h1>EXPLORE OUR EXCITING TECH COURSES</h1>
+        <div class="topics flex wrap justify-center">
+            {#each TOPICS as topic}
+                <div class="topic">
+                    <h2 class="text-center">{topic.title}</h2>
+                    <p>{topic.description}</p>
+                </div>
+            {/each}
         </div>
     </section>
     <section class="landing-about">
