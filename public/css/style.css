@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
 
 /* ------------- *
  *   CSS Reset   *
@@ -14,6 +14,8 @@ html {
 
 html, body {
     height: 100%;
+    font-family: var(--primary-font);
+    font-weight: 400;
 }
 
 /* ---------- *
@@ -77,6 +79,10 @@ html, body {
     align-items: space-between;
 }
 
+.flex.justify-space-between {
+    justify-content: space-between;
+}
+
 /* -------- *
  *   GRID   *
  * -------- */
@@ -95,6 +101,49 @@ html, body {
     justify-content: center;
 }
 
+.gap-2rem {
+    gap: 2rem;
+}
+
+.gap-4rem {
+    gap: 4rem;
+}
+
 /* --------------- *
  *   APPLICATION   *
  * --------------- */
+nav {
+    padding: 0.75rem 3rem;
+    background-color: var(--light-gray-blue);
+}
+
+nav a {
+    color: var(--dark-gray-blue);
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.nav-items-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-title {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.nav-title > span {
+    color: var(--white-col);
+    font-weight: 600;
+}
+
+.nav-item:is(.signup, .login) {
+    padding: 0.5rem 4rem;
+}
+
+.nav-item.signup {
+    border: 2px solid var(--white-col);
+    border-radius: 0.5rem;
+}
