@@ -13,6 +13,6 @@
         <slot></slot>
     </main>
     <footer>
-        <p>test</p>
+
     </footer>
 </div>
