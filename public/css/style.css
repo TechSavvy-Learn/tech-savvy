@@ -148,13 +148,13 @@ nav a {
 }
 
 .nav-title-alt {
-    font-size: 3.3rem;
+    font-size: 4.5rem;
     font-weight: 400;
 }
 
 .nav-title-alt > span {
     color: var(--fire-orange);
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .nav-item:is(.signup, .login) {
