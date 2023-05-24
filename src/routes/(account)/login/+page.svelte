@@ -1,7 +1,6 @@
 <script>
 
     import '@public/css/style.css';
-    import BackConBtn from '@components/common/BackConBtn.svelte';
 
 </script>
 
