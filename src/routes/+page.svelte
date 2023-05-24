@@ -31,7 +31,7 @@
     <section class="landing-hero flex column gap-2rem">
         <h2>Tech E-Learning: Empowering Young Innovators for the Future!</h2>
         <p>Discover the Thrilling World of Technology with Engaging E-Learning Courses Designed Just for Kids!</p>
-        <button class="borderless">Getting Started</button>
+        <a href="/login" style="width: 110px"><button class="borderless pointer">Getting Started</button></a>
     </section>
     <section class="landing-explore flex column align-center justify-center">
         <h1>EXPLORE OUR EXCITING TECH COURSES</h1>

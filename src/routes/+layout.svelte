@@ -7,12 +7,12 @@
 
 <div id="page-container" class="height-full">
     <header>
-        <NavBar />
+
     </header>
     <main>
         <slot></slot>
     </main>
     <footer>
-        <p>test</p>
+
     </footer>
 </div>

@@ -8,8 +8,8 @@
             <a href="/" class="nav-item">About</a>
         </div>
         <div class="nav-items-container flex gap-2rem">
-            <a href="/" class="nav-item signup">Sign Up</a>
-            <a href="/" class="nav-item login">Login</a>
+            <a href="/signup" class="nav-item signup">Sign Up</a>
+            <a href="/login" class="nav-item login">Login</a>
         </div>
     </section>
 </nav>
