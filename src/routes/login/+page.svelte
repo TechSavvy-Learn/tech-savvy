@@ -68,14 +68,30 @@ input[type="submit"]{
 }
 
 @media (max-width: 840px) {
-.container{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    .container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
 }
 
-img{
-    display: none;
+img {
+  flex: 0;
+  width: 80%;
+  margin: 0;
+}
+
+.loginbox {
+  background-color: var(--desaturated-light-gray-blue);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 60px;
+  margin-top: 40px;
+  box-shadow: 5px 0px 5px rgb(171, 171, 171);
+  border-radius: 20px;
 }
 }
 
@@ -91,7 +107,7 @@ img{
                     <input type="text" name="username" id="username" placeholder="Username">
                     <input type="password" name="password" id="password" placeholder="Password">
                 </section>
-                <input type="submit" value="Login" class="loginBtn">
+                <input type="submit" value="Login" class="loginBtn pointer">
                 <section class="forgot-signup">
                     <a href="/forgotpassword" class="forgot-pass"> <span> Forgot username/password?</span></a>
                     <a href="/signup" class="forgot-pass"> Don't have an account? <span>Sign Up</span>.</a>
