@@ -219,6 +219,7 @@ nav a {
     border: 2px solid var(--dark-gray-blue);
     border-radius: 1.5rem;
     flex-basis: calc(33% - 8rem);
+    box-shadow: 0 0.5rem 1rem 0.2rem rgba(0, 0, 0, 0.3);
 }
 
 .topics > .topic p {
@@ -235,4 +236,16 @@ nav a {
     border-radius: 0 3rem 3rem 0;
     color: var(--white-col);
     background-color: var(--gray-blue);
+}
+
+@media (max-width: 740px) {
+    .topics > .topic {
+        flex-basis: calc(50% - 8rem);
+    }
+}
+
+@media (max-width: 420px) {
+    .topics > .topic {
+        flex-basis: 100%;
+    }
 }
