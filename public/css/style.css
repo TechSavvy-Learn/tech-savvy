@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800&display=swap');
 
 /* ------------- *
  *   CSS Reset   *
@@ -58,6 +58,10 @@ html, body {
 
 .outlineless {
     outline: none;
+}
+
+.pointer{
+    cursor: pointer;
 }
 
 /* -------- *
@@ -141,6 +145,16 @@ nav a {
 .nav-title > span {
     color: var(--white-col);
     font-weight: 600;
+}
+
+.nav-title-alt {
+    font-size: 3.3rem;
+    font-weight: 400;
+}
+
+.nav-title-alt > span {
+    color: var(--fire-orange);
+    font-weight: 800;
 }
 
 .nav-item:is(.signup, .login) {

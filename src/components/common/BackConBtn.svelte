@@ -17,11 +17,12 @@ button {
     margin: 10vh 5% 0 5%;
 }
 </style>
-    <div class="btnWrapper">
-        <a href="/login">
-            <button>Back</button>
-        </a>
-        <a href="/emailVerification">
-            <button>Continue</button>
-        </a>
-    </div>
+
+<div class="btnWrapper">
+    <a href="/login">
+        <button>Back</button>
+    </a>
+    <a href="/emailVerification">
+        <button>Continue</button>
+    </a>
+</div>
