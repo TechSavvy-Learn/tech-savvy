@@ -117,9 +117,9 @@
     }
 </style>
 <div class="navbar">
-    <a href="/"><h1 class="nav-title logotext logo"><span>TECH</span>SAVVY</h1></a>
+    <a href="/"><h1 class="nav-title logo"><span>TECH</span>SAVVY</h1></a>
     <nav class:open={isMenuOpen}>
-        <section class="navBtns">
+        <section class="navBtns nav-items-container gap-4rem">
             <button on:click={() => (isMenuOpen = false)}>
                 <a class:current={current === 0} on:click={()=> (current = 0)} href="/courses" class="nav-item lastItem">Courses</a>
             </button>
