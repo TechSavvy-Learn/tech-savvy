@@ -2,6 +2,7 @@
 
     import '@public/css/style.css';
     import BackConBtn from '@components/common/BackConBtn.svelte';
+    import Hamburger from '../../../components/common/Hamburger.svelte';
 
 </script>
 
@@ -37,10 +38,18 @@ input {
     display: flex;
     justify-content: space-evenly;
 }
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
 
 </style>
 
 <div id="page-container" class="height-full">
+    <Hamburger />
     <main>
         <div class="outterContainer">
             <div class="createContainer"></div>
