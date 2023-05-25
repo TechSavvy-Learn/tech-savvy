@@ -1,12 +1,4 @@
 <style>
-@media (max-width: 840px) {
-.nav-items-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-}
 </style>
 <nav class="flex justify-space-between">
     <a href="/">
@@ -14,8 +6,8 @@
     </a>
     <section class="nav-items-container flex gap-4rem">
         <div class="nav-items flex gap-2rem">
-            <a href="/" class="nav-item">Courses</a>
-            <a href="/" class="nav-item">About</a>
+            <a href="/courses" class="nav-item">Courses</a>
+            <a href="/about" class="nav-item">About</a>
         </div>
         <div class="nav-items-container flex gap-2rem signLogin">
             <a href="/signup" class="nav-item signup">Sign Up</a>
