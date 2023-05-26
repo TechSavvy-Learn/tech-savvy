@@ -306,13 +306,28 @@ nav a {
     .about-container {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 6rem;
     }
 
     .about-container > .about-card {
         flex-basis: 100%;
+        padding: 0 4rem;
+        gap: 0;
+    }
+
+    .about-container > .about-card > .icon-container {
+        margin-bottom: 4rem;
     }
 
     .about-container > .about-card > p {
-        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .about-container > .about-card > h2 {
+        font-size: 3rem;
+    }
+
+    .about-container > .about-card > h2, p {
+        align-self: flex-start;
     }
 }
