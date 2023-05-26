@@ -218,8 +218,8 @@ nav a {
 
 .topics > .topic {
     position: relative;
-    height: 20rem;
-    padding: 8rem 1.5rem;
+    min-height: 20rem;
+    padding: 8rem 1.5rem 2rem 1.5rem;
     border: 2px solid var(--dark-gray-blue);
     border-radius: 1.5rem;
     flex-basis: calc(33% - 8rem);
@@ -300,12 +300,19 @@ nav a {
 
 @media (max-width: 740px) {
     .topics > .topic {
-        flex-basis: calc(50% - 8rem);
-    }
-}
-
-@media (max-width: 420px) {
-    .topics > .topic {
         flex-basis: 100%;
+    }
+
+    .about-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-container > .about-card {
+        flex-basis: 100%;
+    }
+
+    .about-container > .about-card > p {
+        text-align: center;
     }
 }
