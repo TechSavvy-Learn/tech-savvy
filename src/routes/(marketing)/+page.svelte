@@ -1,4 +1,6 @@
 <script>
+    import Footer from "../../components/footer/Footer.svelte";
+
     const TOPICS = [
         {
             title: 'WEB DESIGN',
@@ -79,4 +81,5 @@
             {/each}
         </div>
     </section>
+    <Footer />
 </div>
