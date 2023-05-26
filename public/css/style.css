@@ -28,7 +28,7 @@ html, body {
     /* colors */
     --gray-blue: #3D5A80;
     --dark-gray-blue: #293241;
-    --light-gray-blue: #98C1D9;
+    --light-gray-blue: rgb(152, 193, 217);
     --desaturated-light-gray-blue: #E0FBFC;
     --fire-orange: #EE6C4D;
     --light-gray: #DDDDDD;
@@ -96,6 +96,10 @@ html, body {
  * -------- */
 .grid {
     display: grid;
+}
+
+.grid.place-center {
+    place-items: center;
 }
 
 /* --------------- *
@@ -236,6 +240,62 @@ nav a {
     border-radius: 0 3rem 3rem 0;
     color: var(--white-col);
     background-color: var(--gray-blue);
+}
+
+.landing-about {
+    padding: 6rem;
+    background-color: var(--desaturated-light-gray-blue);
+}
+
+.about-heading > h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--gray-blue);
+}
+
+.about-heading > h1:last-of-type {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--fire-orange);
+}
+
+.about-heading > h1:last-of-type span {
+    font-weight: 400;
+    color: var(--gray-blue);
+}
+
+.about-container {
+    gap: 4rem;
+}
+
+.about-card {
+    gap: 2rem;
+    flex-basis: 33%;
+}
+
+.about-card > h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--fire-orange);
+}
+
+.about-card > p {
+    max-width: 30rem;
+    font-size: 1.25rem;
+}
+
+.icon-container {
+    width: 15rem;
+    height: 15rem;
+    padding: 3rem;
+    border-radius: 100%;
+    border: 1px solid var(--light-gray-blue);
+    background-color: var(--white-col);
+}
+
+.icon-container > img {
+    width: 100%;
+    height: 100%;
 }
 
 @media (max-width: 740px) {

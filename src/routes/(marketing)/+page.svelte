@@ -44,6 +44,33 @@
             {/each}
         </div>
     </section>
-    <section class="landing-about">
+    <section class="landing-about grid place-center gap-4rem">
+        <div class="about-heading">
+            <h1 class="text-center">Why Kids and Young Adults Should Learn Tech with</h1>
+            <h1 class="text-center logo">TECH<span>SAVVY</span></h1>
+        </div>
+        <div class="about-container flex">
+            <div class="about-card flex column align-center">
+                <div class="icon-container">
+                    <img src="/public/images/icons/school-solid.svg" alt="">
+                </div>
+                <h2>Free Education</h2>
+                <p>We offer completely free education in the field of technology, ensuring that knowledge is accessible to all aspiring learners.</p>
+            </div>
+            <div class="about-card flex column align-center">
+                <div class="icon-container">
+                    <img src="/public/images/icons/laptop-code-solid.svg" alt="">
+                </div>
+                <h2>Online Learning</h2>
+                <p>Our courses are delivered through a convenient online platform, allowing learners to access educational materials and engage in interactive lessons from anywhere, at any time.</p>
+            </div>
+            <div class="about-card flex column align-center">
+                <div class="icon-container">
+                    <img src="/public/images/icons/trophy-solid.svg" alt="">
+                </div>
+                <h2>Engaging Content</h2>
+                <p>We believe in making learning enjoyable and engaging. Our courses are designed to be interactive, incorporating practical examples, hands-on exercises, and multimedia elements to enhance the learning experience.</p>
+            </div>
+        </div>
     </section>
 </div>
