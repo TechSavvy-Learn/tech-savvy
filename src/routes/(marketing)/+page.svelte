@@ -1,4 +1,6 @@
 <script>
+    import Footer from "../../components/footer/Footer.svelte";
+
     const TOPICS = [
         {
             title: 'WEB DESIGN',
@@ -25,6 +27,24 @@
             description: 'Dive into the world of coding and learn JavaScript, the language that adds life to web pages. Discover how to create dynamic and interactive elements, build fun games, and make your web projects come alive.'
         }
     ]
+
+    const ABOUT_CARDS = [
+        {
+            title: "Free Education",
+            icon: "icons/school-solid.svg",
+            description: "We offer completely free education in the field of technology, ensuring that knowledge is accessible to all aspiring learners."
+        },
+        {
+            title: "Online Learning",
+            icon: "icons/laptop-code-solid.svg",
+            description: "Our courses are delivered through a convenient online platform, allowing learners to access educational materials and engage in interactive lessons from anywhere, at any time."
+        },
+        {
+            title: "Engaging Content",
+            icon: "icons/trophy-solid.svg",
+            description: "We believe in making learning enjoyable and engaging. Our courses are designed to be interactive, incorporating practical examples, hands-on exercises, and multimedia elements to enhance the learning experience."
+        }
+    ]
 </script>
 
 <div class="landing-container">
@@ -44,6 +64,22 @@
             {/each}
         </div>
     </section>
-    <section class="landing-about">
+    <section class="landing-about grid place-center gap-4rem">
+        <div class="about-heading">
+            <h1 class="text-center">Why Kids and Young Adults Should Learn Tech with</h1>
+            <h1 class="text-center logo">TECH<span>SAVVY</span></h1>
+        </div>
+        <div class="about-container flex">
+            {#each ABOUT_CARDS as card}
+                <div class="about-card flex column align-center">
+                    <div class="icon-container">
+                        <img src={card.icon} alt="">
+                    </div>
+                    <h2>{card.title}</h2>
+                    <p>{card.description}</p>
+                </div>
+            {/each}
+        </div>
     </section>
+    <Footer />
 </div>
