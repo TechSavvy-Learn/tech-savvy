@@ -50,7 +50,7 @@ button, input[type= submit] {
 }
 </style>
 <div class="btnWrapper">
-    <a href="/login">
+    <a href="/signup">
         <button class="back-continue">Back</button>
         <button class="icons"><i class="mi mi-chevron-left"><span class="u-sr-only"></span></i></button>
     </a>
