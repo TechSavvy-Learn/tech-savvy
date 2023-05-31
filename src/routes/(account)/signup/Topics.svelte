@@ -1,45 +1,6 @@
 <script>
     import '@public/css/style.css';
-    import { onMount } from 'svelte';
-
-  onMount(() => {
-    const inputFields = document.querySelectorAll('input[type="password"]');
-    
-    inputFields.forEach((input, index) => {
-      input.addEventListener('input', (event) => {
-        const currentInput = event.target;
-        const value = currentInput.value;
-        
-        if (value.length === 1 && index < inputFields.length - 1) {
-          inputFields[index + 1].focus();
-        }
-      });
-    });
-  });
-
-  onMount(() => {
-    const inputFields = document.querySelectorAll('input[type="password"]');
-    
-    inputFields.forEach((input, index) => {
-      input.addEventListener('input', (event) => {
-        const currentInput = event.target;
-        const value = currentInput.value;
-        
-        if (value.length === 1 && index < inputFields.length - 1) {
-          inputFields[index + 1].focus();
-        }
-      });
-    });
-  });
-
-  function showPopUp() {
-    alert("Verification code resent!");
-  }
 </script>
-
-<svelte:head>
-	<link rel="stylesheet" href="https://unpkg.com/mono-icons@1.0.5/iconfont/icons.css" >
-</svelte:head>
 
 <style>
 .container{
@@ -63,7 +24,6 @@
 .imgWrap{
   display: flex;
   gap: 20px;
-  width: 60%;
 }
 .imgWrap img{
   width: 250px;

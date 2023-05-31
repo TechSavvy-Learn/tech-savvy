@@ -7,9 +7,10 @@
     import Step1 from './SignUp.svelte';
     import Step2 from './Email.svelte';
     import Step3 from './Topics.svelte';
+    import Step4 from './TechLevel.svelte';
 
     let currentStep = 1;
-    const components = [Step1, Step2, Step3];
+    const components = [Step1, Step2, Step3, Step4];
 
     function next() {
         if (currentStep < components.length) {
