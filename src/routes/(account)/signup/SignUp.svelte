@@ -97,7 +97,7 @@ section img {
 </style>
 <section class="container">
     <h1>Create an Account</h1>
-    <img src="public/images/circle-dash/signup.svg" alt="signSvg">
+    <img src="public/images/signUp/circle-dash/signup.svg" alt="signSvg">
     <h1>General Information</h1>
     <div class="formWrap">
         <form action="subimt">

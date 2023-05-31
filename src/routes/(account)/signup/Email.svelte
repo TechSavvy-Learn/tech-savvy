@@ -119,7 +119,7 @@ a{
 </style>
 <section class="container">
     <h1>Create an Account</h1>
-    <img src="public/images/circle-dash/email.svg" alt="emailSvg">
+    <img src="public/images/signUp/circle-dash/email.svg" alt="emailSvg">
     <h1>Email Verification</h1>
     <div class="ptag">
         <p class="emailParagraph">We have sent you a verification code to example@emailcom.<br>

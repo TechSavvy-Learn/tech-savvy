@@ -72,7 +72,7 @@
 
 <section class="container">
     <h1>Create an Account</h1>
-    <img src="public/images/circle-dash/topics.svg" alt="emailSvg">
+    <img src="public/images/signUp/circle-dash/topics.svg" alt="emailSvg">
     <h1>What do you want to learn?</h1>
     <div class="ptag">
         <p class="emailParagraph">You can always switch paths later on!
