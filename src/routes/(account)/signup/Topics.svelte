@@ -39,9 +39,9 @@
         </p>
     </div>
     <div class="imgWrap">
-        <img src="public/images/signUp/topics/web.svg" alt="webDesign">
-        <img src="public/images/signUp/topics/engineering.svg" alt="engineering">
-        <img src="public/images/signUp/topics/coding.svg" alt="coding">
+        <img class="pointer" src="public/images/signUp/topics/web.svg" alt="webDesign" >
+        <img class="pointer" src="public/images/signUp/topics/engineering.svg" alt="engineering">
+        <img class="pointer" src="public/images/signUp/topics/coding.svg" alt="coding">
     </div>
 </section>
 

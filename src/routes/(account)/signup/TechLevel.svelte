@@ -1,5 +1,9 @@
 <script>
     import '@public/css/style.css';
+
+    let color;
+    const colors = ['var(--black-col)', 'var(--fire-orange)'];
+
 </script>
 
 <style>
@@ -25,11 +29,26 @@
 .agesInner{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.line{
-    background-color: var(--gray-blue);
-    width: 100%;
-
+h4{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.hrSevenTwelve{
+    width: 120%;
+    height:3px;
+    border-width:0;
+    color:gray;
+    background-color:var(--light-gray);
+}
+.hrThirteen{
+    width: 120%;
+    height:3px;
+    border-width:0;
+    color:gray;
+    background-color:var(--light-gray);
 }
 .levelToggle{
     display: flex;
@@ -53,13 +72,13 @@
     <img src="public/images/signUp/circle-dash/level.svg" alt="emailSvg">
     <h1>How tech savy are you?</h1>
     <div class="agesContainer">
-        <div class="agesInner">
-            <p>AGES 7 - 12</p>
-            <hr style="height:3px;border-width:0;color:gray;background-color:gray">
+        <div class="agesInner pointer sevenTwelve">
+            <h4>AGES 7 - 12</h4>
+            <hr class="hrSevenTwelve">
         </div>
-        <div class="agesInner">
-            <p>AGES 7 - 12</p>
-            <div class="line"></div>
+        <div class="agesInner pointer thirteen">
+            <h4>AGES 13+</h4>
+            <hr class="hrThirteen">
         </div>
     </div>
     <div class="levelToggle">
