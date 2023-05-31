@@ -1,7 +1,7 @@
 <script>
 
     import '@public/css/style.css';
-    import AltNav from '../../../components/common/AltNav.svelte';
+    import AltNav from './AltNav.svelte';
 
     // import { writable } from 'svelte/store';
     import Step1 from './SignUp.svelte';

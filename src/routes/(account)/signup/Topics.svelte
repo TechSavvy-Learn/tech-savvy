@@ -66,7 +66,7 @@
   width: 60%;
 }
 .imgWrap img{
-  width: 30%;
+  width: 250px;
 }
 </style>
 
@@ -79,9 +79,9 @@
         </p>
     </div>
     <div class="imgWrap">
-        <img src="public/images/topics-signup-images/web-design.png" alt="webDesign">
-        <img src="public/images/topics-signup-images/engineering.png" alt="engineering">
-        <img src="public/images/topics-signup-images/coding.png" alt="coding">
+        <img src="public/images/signUp/topics/web.svg" alt="webDesign">
+        <img src="public/images/signUp/topics/engineering.svg" alt="engineering">
+        <img src="public/images/signUp/topics/coding.svg" alt="coding">
     </div>
 </section>
 

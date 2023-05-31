@@ -7,6 +7,8 @@
 <style>
 input {
     height: 40px;
+    border-radius: 5px;
+    border: solid 1px var(--black-col);
 }
 .formWrap{
     display: flex;
