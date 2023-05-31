@@ -1,6 +1,6 @@
 <style>
 </style>
-<nav class="flex justify-space-between">
+<nav class="flex justify-space-between nav">
     <a href="/">
         <h1 class="nav-title"><span>TECH</span>SAVVY</h1>
     </a>
