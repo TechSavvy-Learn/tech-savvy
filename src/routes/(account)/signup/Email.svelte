@@ -1,9 +1,6 @@
 <script>
 
     import '@public/css/style.css';
-    import BackConBtn from '@components/common/BackConBtn.svelte';
-    import AltNav from '../../../components/common/AltNav.svelte';
-
     import { onMount } from 'svelte';
 
   onMount(() => {
@@ -41,7 +38,9 @@
   }
 
 </script>
-
+<svelte:head>
+	<link rel="stylesheet" href="https://unpkg.com/mono-icons@1.0.5/iconfont/icons.css" >
+</svelte:head>
 <style>
 input {
     height: 33px;
@@ -114,40 +113,36 @@ input {
     width: 80%;
 }
 }
+a{
+    text-decoration: none;
+}
 </style>
-
-<div id="page-container" class="height-full">
-    <AltNav />
-    <main>
-        <section class="container">
-            <h1>Create an Account</h1>
-            <img src="public/images/create-account-circle-dash/email-confirm-circle-dash.svg" alt="emailSvg">
-            <h1>Email Varification</h1>
-            <div class="ptag">
-                <p class="emailParagraph">We have sent you a verification code to example@emailcom.<br>
-                    Please check your inbox and enter the verification code below to continue.
-                </p>
-            </div>
-        </section>
-        <section class="confirmation-wrapper">
-            <div class="confirmation-container">
-                <p class="confirmationCode">Confirmation Code</p>
-            </div>
-            <div class="formWrap">
-                <form action="subimt">
-                    <input type="password" name="email-one" id="email-one">
-                    <input type="password" name="email-two" id="email-two">
-                    <input type="password" name="email-three" id="email-three">
-                    <input type="password" name="email-four" id="email-four">
-                    <input type="password" name="email-five" id="email-five">
-                    <input type="password" name="email-six" id="email-six">
-                </form>
-            </div>
-            <div class="resend">
-                <p class="noCode">Didn't receive a code?</p>
-                <a href="/emailVerification" on:click|preventDefault={showPopUp}>Click Here to resend</a>
-              </div>
-        </section>
-        <BackConBtn />
-    </main>
-</div>
+<section class="container">
+    <h1>Create an Account</h1>
+    <img src="public/images/circle-dash/email.svg" alt="emailSvg">
+    <h1>Email Verification</h1>
+    <div class="ptag">
+        <p class="emailParagraph">We have sent you a verification code to example@emailcom.<br>
+            Please check your inbox and enter the verification code below to continue.
+        </p>
+    </div>
+</section>
+<section class="confirmation-wrapper">
+    <div class="confirmation-container">
+        <p class="confirmationCode">Confirmation Code</p>
+    </div>
+    <div class="formWrap">
+        <form action="subimt">
+            <input type="password" name="email-one" id="email-one">
+            <input type="password" name="email-two" id="email-two">
+            <input type="password" name="email-three" id="email-three">
+            <input type="password" name="email-four" id="email-four">
+            <input type="password" name="email-five" id="email-five">
+            <input type="password" name="email-six" id="email-six">
+        </form>
+    </div>
+    <div class="resend">
+        <p class="noCode">Didn't receive a code?</p>
+        <a href="/emailVerification" on:click|preventDefault={showPopUp}>Click Here to resend</a>
+        </div>
+</section>
