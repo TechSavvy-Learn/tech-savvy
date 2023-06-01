@@ -1,5 +1,9 @@
 <script>
     import '@public/css/style.css';
+    let designActive = false;
+    let engineeringActive = false;
+    let codingActive = false;
+
 </script>
 
 <style>
@@ -25,8 +29,13 @@
   display: flex;
   gap: 20px;
 }
-.imgWrap img{
+.imgWrap input{
   width: 200px;
+}
+.active{
+    /* border: 5px solid var(--light-gray-blue); */
+    box-shadow: 10px 5px 5px var(--light-gray-blue);
+    border-radius: 18px;
 }
 </style>
 
@@ -39,9 +48,30 @@
         </p>
     </div>
     <div class="imgWrap">
-        <img class="pointer" src="public/images/signUp/topics/web.svg" alt="webDesign" >
-        <img class="pointer" src="public/images/signUp/topics/engineering.svg" alt="engineering">
-        <img class="pointer" src="public/images/signUp/topics/coding.svg" alt="coding">
+        <input 
+            class="pointer {designActive ? 'active' : ''}" 
+            on:click={() => { designActive = !designActive }} 
+            type="image" 
+            name="webDesign" 
+            src="public/images/signUp/topics/web.svg" 
+            alt="webDesign"
+        >
+        <input 
+            class="pointer {engineeringActive ? 'active' : ''}" 
+            on:click={() => { engineeringActive = !engineeringActive }} 
+            type="image" 
+            name="webDesign" 
+            src="public/images/signUp/topics/engineering.svg" 
+            alt="engineering"
+        >
+        <input 
+            class="pointer {codingActive ? 'active' : ''}" 
+            on:click={() => { codingActive = !codingActive }} 
+            type="image" 
+            name="coding" 
+            src="public/images/signUp/topics/coding.svg" 
+            alt="coding"
+        >
     </div>
 </section>
 
