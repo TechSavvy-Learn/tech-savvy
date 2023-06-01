@@ -16,7 +16,7 @@
     font-size: 2rem;
 }
 .container img {
-    width: 340px;
+    width: 300px;
 }
 .emailParagraph{
     font-size: 1rem;
@@ -26,7 +26,7 @@
   gap: 20px;
 }
 .imgWrap img{
-  width: 250px;
+  width: 200px;
 }
 </style>
 

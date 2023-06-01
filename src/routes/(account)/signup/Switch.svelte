@@ -42,7 +42,7 @@
   
     input:checked + .slider {
       background-color: var(--fire-orange);
-      box-shadow: 0 0 1px #var(--fire-orange);
+      box-shadow: 0 0 1px var(--fire-orange);
     }
   
     .agesContainer {
