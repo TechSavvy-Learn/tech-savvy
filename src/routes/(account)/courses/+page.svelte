@@ -26,6 +26,5 @@
                 <h1>Courses</h1>
             </div>
         </div>
-        <BackConBtn />
     </main>
 </div>
