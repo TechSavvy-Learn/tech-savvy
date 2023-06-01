@@ -45,6 +45,9 @@ button {
 .icons {
     display: none;
 }
+main{
+    min-height: 58%;
+}
 @media only screen and (max-width: 500px){
 button {
     background-color: var(--gray-blue);

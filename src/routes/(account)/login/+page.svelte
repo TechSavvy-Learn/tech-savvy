@@ -108,7 +108,7 @@ img {
                 </section>
                 <input type="submit" value="Login" class="loginBtn pointer">
                 <section class="forgot-signup">
-                    <a href="/forgotpassword" class="forgot-pass"> <span> Forgot username/password?</span></a>
+                    <a href="/login" class="forgot-pass"> <span> Forgot username/password?</span></a>
                     <a href="/signup" class="forgot-pass"> Don't have an account? <span>Sign Up</span>.</a>
                 </section>
             </div>
