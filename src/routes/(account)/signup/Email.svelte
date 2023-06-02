@@ -3,7 +3,7 @@ import '@public/css/style.css';
   import { onMount } from 'svelte';
 
   onMount(() => {
-    const inputFields = document.querySelectorAll('input[type="number"]');
+    const inputFields = document.querySelectorAll('input[type="password"]');
     
     inputFields.forEach((input, index) => {
       input.addEventListener('input', (event) => {
@@ -115,12 +115,12 @@ a{
     </div>
     <div class="formWrap">
         <form action="subimt">
-            <input type="number" name="email-one" id="email-one">
-            <input type="number" name="email-two" id="email-two">
-            <input type="number" name="email-three" id="email-three">
-            <input type="number" name="email-four" id="email-four">
-            <input type="number" name="email-five" id="email-five">
-            <input type="number" name="email-six" id="email-six">
+            <input type="password" name="email-one" id="email-one">
+            <input type="password" name="email-two" id="email-two">
+            <input type="password" name="email-three" id="email-three">
+            <input type="password" name="email-four" id="email-four">
+            <input type="password" name="email-five" id="email-five">
+            <input type="password" name="email-six" id="email-six">
         </form>
     </div>
     <div class="resend">
