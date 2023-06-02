@@ -33,9 +33,7 @@
   width: 200px;
 }
 .active{
-    /* border: 5px solid var(--light-gray-blue); */
     box-shadow: 10px 5px 5px var(--light-gray-blue);
-    border-radius: 18px;
 }
 </style>
 
